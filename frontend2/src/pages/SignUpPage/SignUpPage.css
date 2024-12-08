@@ -1,0 +1,34 @@
+.container-fluid {
+  position: relative;
+  padding: 0px;
+  height: 100%;
+}
+
+#log-in-sign-up-background-img {
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  opacity: 15%;
+}
+
+.sign-up-row {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  width: 100%; 
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+.sign-up-col {
+  width: 50%;
+  background-color: #FFFFFF;
+  z-index: 1;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+}

@@ -1,0 +1,26 @@
+.product-cover-img {
+  border: 0.0625rem solid #E6E6E6;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.product-cover-img img {
+  width: 100%; 
+  height: auto; 
+  object-fit: contain; 
+}
+
+.tab-indicator-col {
+  height: 0.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-color: #27D99D;
+  z-index: 2;
+  transition: all 0.5s ease;
+}
+
+.tab-title-col {
+  font-size: 1.25rem;
+  font-weight: 700;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}

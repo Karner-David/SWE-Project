@@ -1,0 +1,81 @@
+*/node_modules/
+
+# Virtual environment folder
+*/venv/
+*/.venv/
+
+# env/
+
+# # Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# # Byte-compiled / optimized / DLL files
+*.pyc
+
+# # Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# # VS Code settings (if using VS Code)
+.vscode/
+
+# # Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# # Logs
+*.log
+
+# # SQLite database files
+*.sqlite3
+
+# # Sensitive environment variable files
+.env
+.env.*
+
+# # Pytest cache
+.pytest_cache/
+.tox/
+.nox/
+coverage/
+*.cover
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.coverage
+.cache
+
+# # MySQL database dumps
+*.sql
+*.sqlite
+
+# # AWS credentials and config files
+.aws/
+
+# # Flask Session Files
+instance/
+*.pid
+
+# # OS-specific files
+.DS_Store
+Thumbs.db

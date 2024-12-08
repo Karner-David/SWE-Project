@@ -1,0 +1,33 @@
+#background-row {
+  height: 3rem;
+  border-radius: 1.5rem;
+  background-color: #E6E6E6;
+  position: relative;
+  color: #4D4D4D;
+}
+
+#left-icon-col {
+  display: flex;
+  align-items: center;
+  font-size: 1.75rem;
+}
+
+#right-icon-col {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  height: 3rem;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: Anuphan;
+  font-weight: 300;
+  color: #4D4D4D;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}

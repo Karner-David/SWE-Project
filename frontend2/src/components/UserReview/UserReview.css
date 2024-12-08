@@ -1,0 +1,17 @@
+.user-review-image-col {
+  position: relative;
+  width: 50%;
+  padding-top: calc(100% * (11 / 8.5));
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.user-review-image-col img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
