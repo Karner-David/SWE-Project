@@ -1,0 +1,44 @@
+#background-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background-color: #E6E6E6;
+  padding: 0 1rem 0 1rem;
+  position: relative;
+}
+
+#off-col {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #4D4D4D;
+  margin-right: 1rem;
+  transition: color 0.5s cubic-bezier(0.66, 0.0, 0.33, 1);
+  z-index: 2;
+}
+
+#on-col {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #4D4D4D;
+  margin-left: 1rem;
+  transition: color 0.5s cubic-bezier(0.66, 0.0, 0.33, 1);
+  z-index: 2;
+}
+
+.highlight {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: calc(50% + 0.5rem);
+  height: 100%;
+  transition: all 0.5s cubic-bezier(0.66, 0.0, 0.33, 1);
+  background-color: #11A36F;
+  border-radius: 1.5rem;
+  z-index: 1;
+}
+
+#button-toggle-div {
+  cursor: pointer;
+}
